@@ -18,15 +18,15 @@ class OnboardingContent extends StatelessWidget {
           style: TextStyle(
             color: primaryColor,
             fontSize: getProporsionateScreenWidht(36), //buat menjadi adaptif
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.bold,
           ),
         ),
         SizedBox(height: 15),
-        Text(text,
-        textAlign: TextAlign.center,
-        style: TextStyle(
-          color: Colors.amber
-        ))
+        Text(
+          text,
+          textAlign: TextAlign.center,
+          style: TextStyle(color: textColor),
+        ),
       ],
     );
   }
